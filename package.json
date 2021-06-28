@@ -4,6 +4,7 @@
   "description": "A simple GitHub repo card, based on Tarptaeya/repo-card",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
+  "svelte": "src/index.ts",
   "types": "./types/index.d.ts",
   "license": "MIT",
   "scripts": {
@@ -67,7 +68,8 @@
   ],
   "files": [
     "dist",
-    "types"
+    "types",
+    "src"
   ],
   "repository": {
     "type": "git",
